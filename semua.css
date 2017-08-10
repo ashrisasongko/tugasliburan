@@ -50,8 +50,6 @@ ul#menu li
     padding: 0 0 47px 47px;
     background: #FFF;
     border-radius: 15px 15px 15px 15px;
-    -moz-border-radius: 15px 15px 15px 15px;
-    -webkit-border: 15px 15px 15px 15px
   }
 
 	#contents p {
@@ -88,16 +86,12 @@ ul#menu li
   	margin-bottom: 12px;
   	padding: 0 0 6px;
   }
-  #main div.box > div {
-  	background-position: -1145px top;
-  	padding: 6px 0 0;
-  }
 
-  #main div.box > div > div {
+  #main div.box {
   	background-position: -572px top;
-  	background-repeat: repeat-y;
   	padding: 17px;
   }
+
   #main div.box h2 {
   	color: #316e66;
   	font-weight: normal;
