@@ -126,6 +126,12 @@ ul#menu li
   	padding: 0 0 3px;
   }
 
+  #main li img {
+  float: left;
+  margin-top: 20px;
+  margin-left: 50px;
+  }
+
 	.ads {
 	float: right;
 	width: 220px;
@@ -141,31 +147,6 @@ hr {
 	margin-right: 40px;
 }
 
-
-	/****************************sidebar********************************/
-  /*kenapa gabisa :( /*  
-  #sidebar {
-    float: right;
-    height: auto;
-    width: 285px;
-  }
-
-	#sidebar h5 {
-		color: #316e66;
-		font-weight: normal;
-		letter-spacing: 1px;
-		margin: 0;
-		padding: 0 0 10px;
-		text-transform: uppercase;
-	}
-
-	#sidebar p {
-		font: 22px/24px "Times New Roman", Times, serif;
-		color: #5a4535;
-		margin: 6px 0 0;
-		text-decoration: none;
-	}
-*/
 	/******************************member******************************/
 	#member li {
 	display: inline-block;
