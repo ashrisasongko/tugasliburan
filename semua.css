@@ -1,0 +1,187 @@
+body {
+	background: grey url(../images/bg-pattern.jpg) repeat left bottom;
+	margin: 0;
+}
+#background {
+	background: url(../images/bg-pattern.jpg) repeat-x center top;
+	min-height: 1318px;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+
+img
+{ border: 0;
+}
+a
+{ color: #000;
+  font-weight: bold;
+  background: transparent;
+  outline: none;
+  text-decoration: underline;}
+
+a:hover
+{ text-decoration: none;}
+
+/*****************************header******************************/
+#header {
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+/*****************************menu******************************/
+ul#menu
+{ margin:0;
+  float: right;}
+
+ul#menu li
+{ padding: 0 0 0 0px;
+  list-style: none;
+  margin: 2px 0 0 0;
+  display: inline;
+  background: transparent;}
+
+/************************contents*********************************/
+  #contents {
+    width: 940px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 0 47px 47px;
+    background: #FFF;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border: 15px 15px 15px 15px
+  }
+
+	#contents p {
+	color: #5a4535;
+	font-size: 15px;
+	line-height: 30px;
+	margin: 0;
+	margin-right: 35px;
+	padding: 0 0 24px 2px;
+}
+
+#contents h2 {
+	color: #316e66;
+	font: 30px/30px "Times New Roman", Times, serif;
+	text-transform: uppercase;
+}
+#contents ul {
+	display: inline-block;
+	width: 860px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+  /*****************************main*********************************/
+
+  #main {
+  	float: left;
+  	min-height: 100px;
+  	width: 566px;
+  }
+  #main div.box {
+  	background-position: left bottom;
+  	margin-bottom: 12px;
+  	padding: 0 0 6px;
+  }
+  #main div.box > div {
+  	background-position: -1145px top;
+  	padding: 6px 0 0;
+  }
+
+  #main div.box > div > div {
+  	background-position: -572px top;
+  	background-repeat: repeat-y;
+  	padding: 17px;
+  }
+  #main div.box h2 {
+  	color: #316e66;
+  	font-weight: normal;
+  	letter-spacing: 1px;
+  	border-bottom: 1px dotted #9c8964;
+  	margin: 0;
+  	padding: 0 0 12px;
+  	text-transform: uppercase;
+  }
+  #main div.box h3 {
+    font: 22px/24px "Times New Roman", Times, serif;
+    font-weight: normal;
+    margin: 6px 0 0;
+    }
+
+  #main div.box ul {
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  }
+  #main div.box ul li {
+  	/*border-bottom: 1px dotted #9c8964;*/
+  }
+  #main div.box ul li span {
+  	color: #5a4535;
+  	display: block;
+  	font-size: 14px;
+  	margin-bottom: 12px;
+  }
+  #main div.box ul li p {
+  	line-height: 24px;
+  	padding: 0 0 3px;
+  }
+
+	.ads {
+	float: right;
+	width: 220px;
+	border-left: 1px solid #bbbbbb;
+	margin-left: 20px;
+	padding-left: 20px;
+}
+
+hr {
+	border:0;
+	border-top: 1px solid #bbbbbb;
+	margin-bottom: 30px;
+	margin-right: 40px;
+}
+
+
+	/****************************sidebar********************************/
+  /*kenapa gabisa :( /*  
+  #sidebar {
+    float: right;
+    height: auto;
+    width: 285px;
+  }
+
+	#sidebar h5 {
+		color: #316e66;
+		font-weight: normal;
+		letter-spacing: 1px;
+		margin: 0;
+		padding: 0 0 10px;
+		text-transform: uppercase;
+	}
+
+	#sidebar p {
+		font: 22px/24px "Times New Roman", Times, serif;
+		color: #5a4535;
+		margin: 6px 0 0;
+		text-decoration: none;
+	}
+*/
+	/******************************member******************************/
+	#member li {
+	display: inline-block;
+	width: 784px;
+	border-top: 1px solid #b7b7b7;
+	padding: 30px 0;
+	position: relative;
+	}
+
+	#member li img {
+	float: right;
+	margin-left: 50px;
+	}
