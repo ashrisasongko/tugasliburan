@@ -160,3 +160,18 @@ hr {
 	float: right;
 	margin-left: 50px;
 	}
+
+/*****************************registration****************************/
+  #registration li{
+    display: inline-block;
+    width: 784px;
+    border-top: 1px solid #b7b7b7;
+    padding: 30px 0;
+    position: relative;
+  }
+  #registration li img {
+    float: left;
+    border: 1px solid #2c9688;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
